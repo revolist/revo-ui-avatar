@@ -18,7 +18,7 @@ export class RevoUiAvatar {
   /**
    * Force the displayed initials by overriding the computed ones.
    */
-  @Prop() initials: string;
+  @Prop() initials: string ;
 
   /**
    * Path to the avatar image to display.
