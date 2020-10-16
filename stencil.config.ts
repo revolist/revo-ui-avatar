@@ -6,6 +6,7 @@ export const config: Config = {
   plugins: [
     sass()
   ],
+  buildEs5: 'prod',
   outputTargets: [
     {
       type: 'dist',

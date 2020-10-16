@@ -16,13 +16,13 @@ Stencil combines the best concepts of the most popular frontend frameworks into 
 
 ## Getting Started
 
-
-Install 
-
 ```bash
 npm i @revolist/revo-ui-avatar  --save
 ```
 
+```bash
+<revo-ui-avatar name="Dodge" is-light="false" background-color-opacity="0.5"></revo-ui-avatar>
+```
 ## Using this component
 
 ### Script tag
@@ -36,7 +36,12 @@ npm i @revolist/revo-ui-avatar  --save
 
 ### Webpack or Modules
 `import { applyPolyfills, defineCustomElements } from '@revolist/revo-ui-avatar/loader';`
+
 `applyPolyfills` if headed to IE11 support.
+// Bind the custom elements to the window object
+applyPolyfills().then(() => {
+  defineCustomElements();
+});
 
 ### Framework webcomponent integration
 Readmore about per framework webcomponent integration [here](https://stenciljs.com/docs/overview).
