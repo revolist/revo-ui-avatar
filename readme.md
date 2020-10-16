@@ -38,6 +38,9 @@ npm i @revolist/revo-ui-avatar  --save
 `import { applyPolyfills, defineCustomElements } from '@revolist/revo-ui-avatar/loader';`
 `applyPolyfills` if headed to IE11 support.
 
+### Framework webcomponent integration
+Readmore about per framework webcomponent integration [here](https://stenciljs.com/docs/overview).
+
 
 # Revo-ui-avatar
 
