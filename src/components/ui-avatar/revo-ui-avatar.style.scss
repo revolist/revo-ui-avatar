@@ -1,0 +1,16 @@
+$default-bg: #e6e6e6;
+
+revo-ui-avatar {
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  user-select: none;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: $default-bg;
+  overflow: hidden;
+
+  > img {
+    width: 100%;
+  }
+}
