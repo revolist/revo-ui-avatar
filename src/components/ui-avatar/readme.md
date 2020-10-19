@@ -16,6 +16,7 @@
 | `initials`               | `initials`                 | Force the displayed initials by overriding the computed ones.                         | `string`  | `undefined` |
 | `inline`                 | `inline`                   | Uses inline-flex instead of flex                                                      | `boolean` | `false`     |
 | `isLight`                | `is-light`                 | Is main background is light                                                           | `boolean` | `true`      |
+| `letters`                | `letters`                  | Letters count per avatar                                                              | `number`  | `2`         |
 | `name`                   | `name`                     | The title that will be used to compute user initial.                                  | `string`  | `'?'`       |
 | `randomColor`            | `random-color`             | Generate random color                                                                 | `boolean` | `true`      |
 | `size`                   | `size`                     | Rectangle size                                                                        | `number`  | `40`        |

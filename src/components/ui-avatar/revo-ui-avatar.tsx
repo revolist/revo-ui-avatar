@@ -63,6 +63,11 @@ export class RevoUiAvatar {
    */
   @Prop() isLight: boolean = true;
 
+  /**
+   * Letters count per avatar
+   */
+  @Prop() letters: number = 2;
+
   /** is image mode */
   get isImage(): boolean {
     return !!this.src;
@@ -92,10 +97,10 @@ export class RevoUiAvatar {
     for (var i = 0; i < parts.length; i++) {
       initials += parts[i].charAt(0)
     }
-    if (initials.length > 3 && initials.search(/[A-Z]/) !== -1) {
+    if (initials.length > this.letters + 1 && initials.search(/[A-Z]/) !== -1) {
       initials = initials.replace(/[a-z]+/g, '')
     }
-    initials = initials.substr(0, 3).toUpperCase();
+    initials = initials.substr(0, this.letters + 1).toUpperCase();
     return initials
   }
 

@@ -36,6 +36,10 @@ export namespace Components {
          */
         "isLight": boolean;
         /**
+          * Letters count per avatar
+         */
+        "letters": number;
+        /**
           * The title that will be used to compute user initial.
          */
         "name": string;
@@ -94,6 +98,10 @@ declare namespace LocalJSX {
           * Is main background is light
          */
         "isLight"?: boolean;
+        /**
+          * Letters count per avatar
+         */
+        "letters"?: number;
         /**
           * The title that will be used to compute user initial.
          */
