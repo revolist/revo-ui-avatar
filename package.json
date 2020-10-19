@@ -1,6 +1,6 @@
 {
   "name": "@revolist/revo-ui-avatar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Light user avatars based on name or image webcomponent",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",

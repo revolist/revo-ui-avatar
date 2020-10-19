@@ -27,7 +27,7 @@ npm i @revolist/revo-ui-avatar  --save
 
 ### Script tag
 
-- Put a script tag similar to this `<script src='https://unpkg.com/browse/@revolist/revo-ui-avatar@latest/dist/revo-ui-avatar/revo-ui-avatar.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='https://unpkg.com/@revolist/revo-ui-avatar@latest/dist/revo-ui-avatar/revo-ui-avatar.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
