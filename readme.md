@@ -2,6 +2,8 @@
 
 <img src="./preview-avatar.png"/>
 
+[Demo sample](https://jsfiddle.net/m2a2x/p237fom9/11/)
+
 # Revo ui avatar
 
 This is an avatar webcomponent to generate avatars through out all frameworks.
